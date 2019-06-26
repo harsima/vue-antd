@@ -1,5 +1,5 @@
 export default {
-  loginWelcome: '欢迎访问Vue Admin',
+  loginWelcome: '欢迎访问Vue Antd',
   userName: '用户名',
   password: '密码',
   login: '登录',
