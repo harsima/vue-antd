@@ -1,0 +1,4 @@
+// 返回图片主题路径
+@function imageURL($url){
+  @return $baseImageURL + $url;
+}
