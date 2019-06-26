@@ -1,8 +1,11 @@
 <template>
   <a-layout-header class="app-header">
-    <div class="header-right-wrap">
+    <div class="app-header-right">
       <a-dropdown :trigger="['click']">
-        <span class="header-action">{{ userName }}</span>
+        <div class="app-header-action">
+          <a-icon type="user"></a-icon>
+          <span>{{ userName }}</span>
+        </div>
         <a-menu slot="overlay" class="user-menu">
           <a-menu-item key="0">
             <a-icon type="edit"></a-icon>

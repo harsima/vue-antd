@@ -6,21 +6,26 @@
 .app-header {
   padding: 0 24px;
   background: $white;
+}
 
-  .header-right-wrap {
-    float: right;
-    .header-action {
-      display: inline-block;
-      height: 100%;
-      padding: 0 12px;
-      cursor: pointer;
-      &:hover {
-        background: rgba(216, 216, 216, 0.5)
-      }
-    }
-    .user-menu {
-      width: 150px;
-    }
+.app-header-right {
+  float: right;
+
+  .user-menu {
+    width: 150px;
+  }
+}
+
+.app-header-action {
+  display: inline-block;
+  height: 100%;
+  padding: 0 12px;
+  cursor: pointer;
+  & > span {
+    margin-left: 8px;
+  }
+  &:hover {
+    background: rgba(216, 216, 216, 0.5)
   }
 }
 
@@ -29,17 +34,17 @@
   overflow: auto;
 }
 
+.app-logo {
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+  font-family: "Microsoft Yahei";
+  font-weight: bold;
+  text-align: center;
+  color: $white;
+}
+
 .page-main {
   padding: 24px;
   background: $white;
-}
-
-.app-layout-sider {
-  .logo {
-    height: 60px;
-    line-height: 60px;
-    font-size: 16px;
-    text-align: center;
-    color: $white;
-  }
 }

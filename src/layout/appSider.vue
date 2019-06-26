@@ -1,6 +1,6 @@
 <template>
   <a-layout-sider class="app-layout-sider">
-    <div class="logo">LOGO</div>
+    <div class="app-logo">Vue-Antd</div>
     <sider-menu :menuData="menuData" :collapsed="false" @select="onSelect"></sider-menu>
   </a-layout-sider>
 </template>
