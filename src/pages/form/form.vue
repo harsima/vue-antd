@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'form'
+  name: 'formIndex'
 }
 </script>

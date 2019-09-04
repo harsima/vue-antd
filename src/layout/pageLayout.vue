@@ -15,7 +15,6 @@
 <script>
 import AppSider from './appSider'
 import AppHeader from './appHeader'
-// import AppContent from './appContent'
 
 export default {
   computed: {
@@ -26,7 +25,6 @@ export default {
   components: {
     AppSider,
     AppHeader
-    // AppContent
   }
 }
 </script>

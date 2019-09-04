@@ -9,6 +9,6 @@ const Components = [
 ]
 
 // 注册组件
-Components.map((com) => {
+Components.forEach(com => {
   Vue.component(com.name, com)
 })
